@@ -1,15 +1,21 @@
 {
     "answer": "Antwort",
-    "complete": "Fertig",
+    "answersaved": "Antwort gespeichert",
+    "complete": "Vollständig",
     "correct": "Richtig",
     "errorattachmentsnotsupported": "Die App erlaubt keine Antworten mit Dateianhängen.",
-    "errorquestionnotsupported": "Dieser Fragetyp wird von der App nicht unterstützt :{{$a}}.",
-    "feedback": "Rückmeldung",
-    "howtodraganddrop": "Tippen Sie zum Auswählen und tippen Sie noch einmal zum verwerfen.",
+    "errorinlinefilesnotsupported": "Die App unterstützt keine Bearbeitung von integrierten Dateien.",
+    "errorquestionnotsupported": "Die App unterstützt diesen Fragetyp nicht: {{$a}}.",
+    "feedback": "Feedback",
+    "howtodraganddrop": "Tippen Sie zum Auswählen und tippen Sie noch einmal zum Ablegen.",
     "incorrect": "Falsch",
-    "notanswered": "Nicht abgestimmt",
-    "notyetanswered": "unbeantwortet",
+    "information": "Information",
+    "invalidanswer": "Unvollständige Antwort",
+    "notanswered": "Nicht beantwortet",
+    "notyetanswered": "Bisher nicht beantwortet",
     "partiallycorrect": "Teilweise richtig",
     "questionmessage": "Frage {{$a}}: {{$b}}",
-    "unknown": "Status kann nicht bestimmt werden."
+    "questionno": "Frage {{$a}}",
+    "requiresgrading": "Bewertung notwendig",
+    "unknown": "Der Status kann nicht bestimmt werden."
 }

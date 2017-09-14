@@ -3,9 +3,10 @@
     "clicktoupload": "Cliquer sur le bouton ci-dessous pour déposer les fichiers dans vos fichiers personnels.",
     "couldnotloadfiles": "La liste des fichiers n'a pas pu être chargée.",
     "emptyfilelist": "Aucun fichier à afficher.",
-    "myfiles": "Mes fichiers",
-    "myprivatefiles": "Mes fichiers personnels",
+    "erroruploadnotworking": "Il n'est actuellement pas possible de déposer des fichiers sur votre site.",
+    "files": "Fichiers",
     "myprivatefilesdesc": "Les fichiers disponibles dans votre zone privée sur cette plateforme Moodle.",
+    "privatefiles": "Fichiers personnels",
     "sitefiles": "Fichiers du site",
     "sitefilesdesc": "Les autres fichiers disponibles sur cette plateforme Moodle.",
     "uploadfiles": "Déposer des fichiers"
