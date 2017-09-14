@@ -21,13 +21,15 @@ angular.module('mm.core.settings')
  * @ngdoc controller
  * @name mmSettingsAboutCtrl
  */
-.controller('mmSettingsAboutCtrl', function($scope, $window, $mmApp, $ionicPlatform, $mmLang, $mmFS,
+.controller('mmSettingsAboutCtrl', function($scope, $translate, $window, $mmApp, $ionicPlatform, $mmLang, $mmFS,
             $mmLocalNotifications, mmCoreConfigConstants) {
 
     $scope.versionname = mmCoreConfigConstants.versionname;
-    $scope.appname = $mmApp.isDesktop() ? mmCoreConfigConstants.desktopappname : mmCoreConfigConstants.appname;
+    $translate('mm.settings.appname', {version: $scope.versionname}).then(function(appName) {
+        $scope.appname = appName;
+    });
+
     $scope.versioncode = mmCoreConfigConstants.versioncode;
-    $scope.privacyPolicy = mmCoreConfigConstants.privacypolicy;
 
     $scope.navigator = $window.navigator;
     if ($window.location && $window.location.href) {

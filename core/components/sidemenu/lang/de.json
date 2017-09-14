@@ -2,8 +2,8 @@
     "appsettings": "Einstellungen",
     "changesite": "Website wechseln",
     "help": "Hilfe",
-    "logout": "Abmelden",
+    "logout": "Website wechseln",
     "mycourses": "Meine Kurse",
     "togglemenu": "Menü umschalten",
-    "website": "Website im Browser"
+    "website": "Website"
 }

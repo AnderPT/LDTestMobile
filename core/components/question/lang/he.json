@@ -1,16 +1,10 @@
 {
     "answer": "תשובה",
-    "answersaved": "תשובה נשמרה",
     "complete": "הושלם",
-    "correct": "תקין",
-    "feedback": "משוב",
-    "incorrect": "שגוי",
-    "information": "מידע",
-    "invalidanswer": "תשובה שלא הושלמה",
-    "notanswered": "לא נענה",
-    "notyetanswered": "שאלה זו טרם נענתה",
-    "partiallycorrect": "נכון באופן חלקי",
-    "questionno": "שאלה {{$a}}",
-    "requiresgrading": "נדרש מתן ציון",
-    "unknown": "לא ידוע"
+    "correct": "נכון",
+    "feedback": "תגובות",
+    "incorrect": "לא נכון",
+    "notanswered": "שאלה זו טרם נענתה",
+    "notyetanswered": "עדין לא ענו",
+    "partiallycorrect": "תשובה נכונה חלקית"
 }

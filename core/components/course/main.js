@@ -17,7 +17,7 @@ angular.module('mm.core.course', ['mm.core.courses'])
 .constant('mmCoreCoursePriority', 800)
 .constant('mmCoreCourseAllSectionsId', -1)
 
-.config(function($stateProvider) {
+.config(function($stateProvider, $mmCoursesDelegateProvider, mmCoreCoursePriority) {
 
     $stateProvider
 
@@ -26,9 +26,8 @@ angular.module('mm.core.course', ['mm.core.courses'])
         params: {
             courseid: null,
             sid: null, // Section to load. Not naming it sectionid because it collides with 'mm_course-section' param in split-view.
-            sectionnumber: null, // Section to load. If sid is provided there is no need to provide sectionnumber and vice versa.
             moduleid: null, // Module to load.
-            course: null
+            coursefullname: null
         },
         views: {
             'site': {
@@ -65,6 +64,8 @@ angular.module('mm.core.course', ['mm.core.courses'])
             }
         }
     });
+
+    $mmCoursesDelegateProvider.registerNavHandler('mmCourse', '$mmCourseCoursesNavHandler', mmCoreCoursePriority);
 })
 
 .run(function($mmEvents, mmCoreEventLogin, mmCoreEventSiteUpdated, $mmCourseDelegate, mmCoreEventRemoteAddonsLoaded) {

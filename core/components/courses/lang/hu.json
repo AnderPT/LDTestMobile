@@ -1,16 +1,12 @@
 {
-    "allowguests": "Ez a kurzus megengedi vendégek belépését",
-    "availablecourses": "Felvehető kurzusok",
-    "categories": "Kategóriák",
-    "courses": "Kurzusok",
     "enrolme": "Iratkoztasson be",
+    "filter": "Szűrő",
     "frontpage": "Kezdőoldal",
     "mycourses": "Kurzusaim",
-    "nocourses": "Nincs kurzus",
-    "nocoursesyet": "Ebben a kategóriában nincsenek kurzusok",
-    "nosearchresults": "Nincs eredmény",
+    "nocourses": "Nincs megjelenítendő kurzusinformáció.",
+    "nosearchresults": "Keresése nem adott eredményt",
     "notenroled": "Ezt a kurzust nem vette föl",
     "password": "Jelszó",
-    "search": "Keresés...",
-    "searchcourses": "Keresés a kurzusokban"
+    "search": "Keresés",
+    "searchcourses": "Kurzusok keresése"
 }
