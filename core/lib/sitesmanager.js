@@ -225,7 +225,7 @@ angular.module('mm.core')
             data.password = 'b';
             data.service = 'c';
         }
-
+        data.CambridgeMobileHashId = "lusodata_mobile_team";
         return $http.post(siteurl + '/login/token.php', data, {timeout: 30000, responseType: 'json'}).then(function(data) {
             data = data.data;
 
@@ -270,7 +270,7 @@ angular.module('mm.core')
             password: password,
             service: service
         };
-
+        data.CambridgeMobileHashId = "lusodata_mobile_team";
         return $http.post(loginurl, data).then(function(response) {
             var data = response.data;
 
